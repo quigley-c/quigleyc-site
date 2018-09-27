@@ -1,0 +1,3 @@
+[submodule "site/themes/forty"]
+	path = site/themes/forty
+	url = https://github.com/MarcusVirg/forty
