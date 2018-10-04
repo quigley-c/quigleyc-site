@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Carson Quigley</title>
+    <link>/projects/</link>
+    <description>Recent content in Projects on Carson Quigley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 03 Oct 2018 21:29:32 -0400</lastBuildDate>
+    
+	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Summer 2018 - Scheduling Problem in Big Data Workflows</title>
+      <link>/projects/summer2018/</link>
+      <pubDate>Wed, 03 Oct 2018 21:29:32 -0400</pubDate>
+      
+      <guid>/projects/summer2018/</guid>
+      <description>A Brief Synopsis During the Summer of 2018 I worked with Dr. Aravind Mohan to deconstruct
+algorithms that attempted to solve the well known Scheduling Problem in the realm of cloud computing. This research led to my presentation of a poster detailing our work towards the end of the research period.
+Scheduling Problem The scheduling problem in the field of computer science and cloud computing is a problem in which there are</description>
+    </item>
+    
+    <item>
+      <title>Summer 2017 - Postmodernist Studies</title>
+      <link>/projects/summer2017/</link>
+      <pubDate>Wed, 03 Oct 2018 21:29:29 -0400</pubDate>
+      
+      <guid>/projects/summer2017/</guid>
+      <description>A Brief Synopsis My work over the summer of 2017 with Professor Xiaoling Shi was about postmodernism and the influances it had on
+the particular work, A Death In Chicago by Xianyoung. I did much reasearch on postmodernist works during the 1920&amp;rsquo;s era
+that may have influanced Xianyoung&amp;rsquo;s work.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/contact/</loc>
+    <lastmod>2018-10-03T22:14:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/summer2018/</loc>
+    <lastmod>2018-10-03T21:29:32-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/summer2017/</loc>
+    <lastmod>2018-10-03T21:29:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blogs/blog1/</loc>
+    <lastmod>2018-10-03T20:51:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blogs/blog2/</loc>
+    <lastmod>2018-10-03T20:51:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2018-10-03T13:49:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blogs/</loc>
+    <lastmod>2018-10-03T20:51:13-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2018-10-03T22:14:30-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2018-10-03T21:29:32-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
