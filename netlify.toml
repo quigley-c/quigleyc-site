@@ -3,4 +3,5 @@
   publish = "dist"
 
 [context.deploy-preview]
-  command = "hugo"
+  command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
+  
