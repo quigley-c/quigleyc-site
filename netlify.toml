@@ -1,6 +1,6 @@
 [build]
   command = "cd site/ hugo"
-  publish = "dist"
+  publish = "public"
 
 [context.deploy-preview]
   command = "hugo --buildFuture -b $DEPLOY_PRIME_URL"
