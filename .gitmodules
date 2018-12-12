@@ -4,3 +4,12 @@
 [submodule "site/themes/hugo-coder"]
 	path = site/themes/hugo-coder
 	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "hugo/hermit"]
+	path = hugo/hermit
+	url = git@github.com:Track3/hermit.git
+[submodule "hugo/themes/hugo-coder-portfolio"]
+	path = hugo/themes/hugo-coder-portfolio
+	url = git@github.com:naro143/hugo-coder-portfolio.git

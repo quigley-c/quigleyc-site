@@ -1,0 +1,71 @@
+# Site settings
+# --------------
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ .Site.Params.myvariable }}.
+baseurl = "/" # The subpath of your site, e.g. / or /blog
+languageCode = "en-us"
+languageLang = "en"
+defaultContentLanguage = "en"
+title = "Carson Quigley: Programmer/Coffee Addict"
+theme = "hugo-coder-portfolio"
+
+# Build settings
+# --------------
+# Set the destination the same as the Gulpfile for consistency
+destination = "../"
+# Enable this to have links relativized by Hugo
+# E.g,  if your /post/first/ page contains a link 
+# to /about/, Hugo will rewrite the URL to ../../about/
+relativeURLs = true
+# Enable rendering of Emojis in markdown
+enableEmoji = true
+
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+# Site Params
+# -------------
+[params]
+  author = "Carson Quigley"
+  info = "Programmer, Software Engineer, Coffee Addict"
+  description = '''
+  Carson Quigley's website
+  '''
+  keywords = "blog,developer,software,coder,programmer"
+  avatarurl = "/img/home-avatar.jpg"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  footercontent = "Programmer, Software Engineer, Coffee Addict: Carson Quigley"
+
+  hidecredits = false
+  hidecopyright = false
+
+  rtl = false
+
+  math = true
+
+[[params.social]]
+  name = "Github"
+  icon = "fab fa-github fa2x"
+  weight = 1
+  url = "https://github.com/quigley-c/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fab fa-linkedin"
+  weight = 2
+  url = "http://www.linkedin.com/in/quigley-c"
+
+# Site Menus
+# See the Hugo docs for usage in layouts
+# https://gohugo.io/content-management/menus/
+[[menu.main]]
+  name = "Home"
+  weight = 1
+  identifier = "home"
+  url = "/"
