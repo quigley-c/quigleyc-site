@@ -1,7 +1,7 @@
 ---
-title = Contact Me!
-date = 2018-10-03T22:14:30-04:00
-draft = false
+draft: false
+title: Contact Me
+date: 2018-10-03T22:14:30-04:00
 ---
 
 The easiest way to contact me is by email: carson.ll.quigley@gmail.com.  
