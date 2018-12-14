@@ -65,7 +65,22 @@ pygmentscodefencesguesssyntax = true
 # See the Hugo docs for usage in layouts
 # https://gohugo.io/content-management/menus/
 [[menu.main]]
-  name = "Home"
-  weight = 1
-  identifier = "home"
-  url = "/"
+  name = "About"
+  weight = 2
+  identifier = "about"
+  url = "about/about"
+[[menu.main]]
+  name = "Projects"
+  weight = 3
+  identifier = "Projects"
+  url = "projects"
+[[menu.main]]
+  name = "Posts"
+  weight = 4
+  identifier = "blog"
+  url = "blogs"
+[[menu.main]]
+  name = "Contact"
+  weight = 5
+  identifier = "Contact"
+  url = "contact/contact"
