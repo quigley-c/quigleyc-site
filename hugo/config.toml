@@ -80,6 +80,11 @@ pygmentscodefencesguesssyntax = true
   identifier = "blog"
   url = "blogs"
 [[menu.main]]
+  name = "Resume"
+  weight = 4
+  identifier = "Resume"
+  url = "resume/resume"
+[[menu.main]]
   name = "Contact"
   weight = 5
   identifier = "Contact"
