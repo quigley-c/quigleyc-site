@@ -5,8 +5,9 @@ draft: false
 ---
 
 ## A Brief Synopsis
-My work over the summer of 2017 with Professor [Xiaoling Shi](https://sites.google.com/a/allegheny.edu/xiaoling-shi/)
-was about postmodernism and the influances it had on  
-the particular work, A Death In Chicago by Xianyoung. I did much reasearch on postmodernist works during the 1920's era  
-that may have influanced Xianyoung's work.
-
+My work over the summer of 2017 with Professor
+[Xiaoling Shi](https://sites.google.com/a/allegheny.edu/xiaoling-shi/)
+was about postmodernism and the influances it had on the particular work "A Death
+In Chicago" by Xianyoung. I did a ton of reasearch on postmodernist works during
+the 1920's era that may have influanced Xianyoung's work, and in the process
+learned a ton about the postmodernist era in general.
