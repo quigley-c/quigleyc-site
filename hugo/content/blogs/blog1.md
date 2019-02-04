@@ -1,9 +1,10 @@
 ---
-title: First Post!
-date: 2018-10-03T20:51:13-04:00
+title: "Looking for Internships!"
+date: 2019-02-04T18:11:50-05:00
 draft: false
 ---
-Sometimes one looks to the first post to find out what the original philosophy of the post creator was.
 
-Wonder what this post's philosophy is..
+Hey, If you're reading this it must mean you're checking me out. Thanks!
 
+I'm currently looking for internships in computer science for summer 2019,  
+let me know if you're interested in picking up a slick programmer!
