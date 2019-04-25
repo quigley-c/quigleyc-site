@@ -17,9 +17,7 @@ classroom setting. The tool is most generally run using the command
 `gradle grade` from the command line, and is also designed to run smoothly
 from a Travis CI environment.
 
-## PR [#126](https://github.com/GatorEducator/gatorgrader/pull/126) Add a feature to support checks of the GitHub issue tracker
-
-[PR #126](https://github.com/GatorEducator/gatorgrader/pull/126)
+## [PR #126 Add a feature to support checks of the GitHub issue tracker](https://github.com/GatorEducator/gatorgrader/pull/126)
 
 I lead the team working on the Gatorgrader feature to add support for checking the
 GitHub issue tracker as well as a number of small fixes and enhancements. This
