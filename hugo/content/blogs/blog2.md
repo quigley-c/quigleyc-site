@@ -5,7 +5,7 @@ draft: false
 ---
 
 This page is dedicated to documenting the development contributed to the
-Gatorgrader project over the course of Fall 2019.
+Gatorgrader project over the course of Spring 2019.
 
 ## What is [Gatorgrader](https://GitHub.com/GatorEducator/gatorgrader)?
 
