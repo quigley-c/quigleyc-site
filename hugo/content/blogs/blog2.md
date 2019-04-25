@@ -19,6 +19,8 @@ from a Travis CI environment.
 
 ## PR [#126](https://github.com/GatorEducator/gatorgrader/pull/126) Add a feature to support checks of the GitHub issue tracker
 
+[PR #126](https://github.com/GatorEducator/gatorgrader/pull/126)
+
 I lead the team working on the Gatorgrader feature to add support for checking the
 GitHub issue tracker as well as a number of small fixes and enhancements. This
 feature involved implementing a method of authenticating with GitHub to get the
