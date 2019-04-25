@@ -4,8 +4,6 @@ date: 2019-03-14T13:34:30-05:00
 draft: false
 ---
 
-# Gatorgrader Development Blog
-
 This page is dedicated to documenting the development contributed to the
 Gatorgrader project over the course of Fall 2019.
 
