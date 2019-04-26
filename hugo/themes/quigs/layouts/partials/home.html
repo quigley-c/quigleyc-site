@@ -1,17 +1,17 @@
 <section class="container centered">
-  <div class="about">
-    {{ with.Site.Params.social }}
+  <div class="socialbar">
     <ul>
-      {{ range sort .}}
-      <li><a href="{{ .url }}">{{ .name }}</a></li>
+      {{ with.Site.Params.social }}
+        {{ range sort .}}
+          <li><a href="{{ .url }}">{{ .name }}</a></li>
+        {{ end }}
       {{ end }}
     </ul>
-    {{ end }}
-      <div class="avatar-bay">
-    	{{ with .Site.Params.avatarurl }}<img src="{{.}}" alt="avatar img">{{ end }}
-	<h1>{{ .Site.Params.author }}</h1>
-        <h2>{{ .Site.Params.info }}</h2>
-      </div>
+  </div>
+  <div class="avatar-bay">
+    {{ with .Site.Params.avatarurl }}<img src="{{.}}" alt="avatar img">{{ end }}
+    <h1>{{ .Site.Params.author }}</h1>
+    <h2>{{ .Site.Params.info }}</h2>
   </div>
 </section>
     
