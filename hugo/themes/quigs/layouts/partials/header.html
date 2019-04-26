@@ -1,0 +1,10 @@
+<div class="navbar">
+  <ul>
+    <li><a href="{{ print "/" | relLangURL }}">{{ .Site.Title }}</a></li>
+    {{ with.Site.Menus.main }}
+      {{ range sort . }}
+        <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</div>
