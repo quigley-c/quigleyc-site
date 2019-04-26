@@ -1,3 +1,9 @@
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
 .navbar ul {
   list-style-type: none;
   margin: 0;
@@ -20,6 +26,24 @@
 
 .navbar li a:hover {
   background-color: #222;
+}
+
+.socialbar {
+  text-align: center;
+}
+
+.socialbar ul {
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.socialbar li {
+  display: inline-block;;
+}
+
+.socialbar li a {
 }
 
 .avatar-bay {
