@@ -1,10 +1,22 @@
-<div class="navbar">
-  <ul>
-    <li><a href="{{ print "/" | relLangURL }}">{{ .Site.Title }}</a></li>
+<div class="navbar" id="nav">
+    <a href="{{ print "/" | relLangURL }}">{{ .Site.Title }}</a>
     {{ with.Site.Menus.main }}
       {{ range sort . }}
-        <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+        <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
       {{ end }}
     {{ end }}
-  </ul>
+  <a href="javascript:void(0);" class="icon" onclick="drop()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
+
+<script>
+	function drop() {
+		var x = document.getElementById("nav");
+		if (x.className === "navbar") {
+			x.className += " responsive";
+		} else {
+			x.className = "navbar";
+		}
+  	}
+</script>

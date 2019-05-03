@@ -5,9 +5,7 @@
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}
-
-	  {{- partial "home.html" . -}}
-
+  	  {{ partial "home.html" . }}
 	{{- end }}
         </div>
         {{- partial "footer.html" . -}}
