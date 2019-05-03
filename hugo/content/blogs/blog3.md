@@ -13,7 +13,7 @@ QuizAGator is a web application that provides an interface for creating quizzes
 without the overhead of a GUI making quiz creation tedious and--in the case that
 the design of the GUI tool changes--confusing.
 
-## [PR #9 Added updated README](https://GitHub.com/GatorEducator/quizagator/pull/9)
+## Development and Contribution
 
 The development of this tool began slowly, as we needed to decide on a framework
 to use as well as the method we wanted to use to implement the tool. We decided
@@ -25,13 +25,14 @@ in a way that was beneficial to our end goal.
 
 My contribution to this project consists of a myriad of commits in `teachers.py`,
 `students.py`, and most of the HTML templates for the project, as well as writing
-the README for the project. Some of the most interesting parts of the project
-to me were in the Flask database code, particularly in `teachers.py` and
-`students.py`. I enjoyed learning about Flask database use and creating endpoints
-for functions that would later return an HTML template file with the desired
-information. Finally, I wrote a simple navigation bar for the web-interface that
-allows users to quickly and easily move between the pages from any endpoint, as
-well as a logout button.
+the README for the project. 
+[PR #9 Added updated README](https://GitHub.com/GatorEducator/quizagator/pull/9).
+Some of the most interesting parts of the project to me were in the Flask database
+code, particularly in `teachers.py` and `students.py`. I enjoyed learning about
+Flask database use and creating endpoints for functions that would later return
+an HTML template file with the desired information. Finally, I wrote a simple
+navigation bar for the web-interface that allows users to quickly and easily
+move between the pages from any endpoint, as well as a logout button.
 
 Here is a sample of the navigation bar for the teacher user type:
 
