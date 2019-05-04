@@ -2,30 +2,52 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #652020;
   box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.navbar li {
+.navbar a {
   float: left;
-}
-
-.navbar li a {
   display: block;
   color: white;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-.navbar li a:hover {
+.navbar a:hover {
   background-color: #222;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar a {display: none;}
+  .navbar a:not(:first-child) {
+    background-color: #222;
+  }
+  .navbar a:hover {
+    background-color: #672020;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 .socialbar {
@@ -46,13 +68,20 @@
 .socialbar li a {
 }
 
+@media only screen and (min-width: 768px) {
+	[class*="socialbarr"] {
+		
+	}
+}
+
 .avatar-bay {
   padding: 0px 0px 2%;
-  max-width: 40%;
+  max-width: 30%;
   border-radius: 10px 10px 0px 0px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);
+  max-width: 80%;
 }
 
 .avatar-bay img {
@@ -65,4 +94,10 @@
   padding: 8px;
   text-align: center;
   color: #222;
+}
+
+@media only screen and (min-width: 768px) {
+	[class*="avatar-bay"] {
+		max-width: 40%;
+	}
 }
