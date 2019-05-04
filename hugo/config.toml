@@ -7,7 +7,7 @@ languageCode = "en-us"
 languageLang = "en"
 defaultContentLanguage = "en"
 title = "Carson Quigley: Programmer/Coffee Addict"
-theme = "hugo-coder-portfolio"
+theme = "quigs"
 
 # Build settings
 # --------------
@@ -41,7 +41,7 @@ pygmentscodefencesguesssyntax = true
   favicon_32 = "/img/favicon-32x32.png"
   favicon_16 = "/img/favicon-16x16.png"
 
-  footercontent = "Programmer, Software Engineer, Coffee Addict: Carson Quigley"
+  footercontent = "Made with peace, love, and coffee <3"
 
   hidecredits = false
   hidecopyright = false
@@ -68,7 +68,7 @@ pygmentscodefencesguesssyntax = true
   name = "About"
   weight = 2
   identifier = "about"
-  url = "about/about"
+  url = "about"
 [[menu.main]]
   name = "Projects"
   weight = 3
@@ -83,9 +83,9 @@ pygmentscodefencesguesssyntax = true
   name = "Resume"
   weight = 4
   identifier = "Resume"
-  url = "resume/resume"
+  url = "resume"
 [[menu.main]]
   name = "Contact"
   weight = 5
   identifier = "Contact"
-  url = "contact/contact"
+  url = "contact"
