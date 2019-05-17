@@ -10,13 +10,21 @@
   margin-bottom: 5%;
   padding: 8px;
   border-style: outset;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: black;
+  transition: all .3s ease-in;
 }
 
 .list-container a {
-  padding: 10px;
   text-decoration: none;
 }
 
 .list-container img {
   float: left;
+}
+
+.list-container li:hover {
+  background-color: #652020;
+  color: white;
 }

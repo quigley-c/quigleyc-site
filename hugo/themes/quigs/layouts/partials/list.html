@@ -2,9 +2,11 @@
   <h1 class="title">{{ .Title }}</h1>
   <ul>
     {{ range .Paginator.Pages }}
-    <li>
-      <span>{{ .Date.Format "January 2, 2006" }} </span><a href="{{ .URL }}">{{ .Title }}</a>
-    </li>
+    <a href= "{{ .URL }}">
+      <li>
+        <span>{{ .Date.Format "January 2, 2006" }} </span>{{ .Title }}
+      </li>
+    </a>
     {{ end }}
   </ul>
   {{ partial "pagination.html" . }}
