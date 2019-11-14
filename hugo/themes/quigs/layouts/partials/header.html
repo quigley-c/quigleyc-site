@@ -1,14 +1,18 @@
-<div class="navbar" id="nav">
+<div class="navbar" id="navbar">
+    <a href="javascript:void(0)" class="closebtm" onclick="closeNav()">&times;</a>
     <a href="{{ print "/" | relLangURL }}">{{ .Site.Title }}</a>
     {{ with.Site.Menus.main }}
       {{ range sort . }}
         <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
       {{ end }}
     {{ end }}
-  <a href="javascript:void(0);" class="icon" onclick="drop()">
+</div>
+
+  <a href="javascript:void(0);" class="icon" onclick="openNav()">
     <i class="fa fa-bars"></i>
   </a>
-</div>
+
+
 
 <script>
 	function drop() {
@@ -19,4 +23,11 @@
 			x.className = "navbar";
 		}
   	}
+	
+	function openNav() {
+		document.getElementById("navbar").style.width = "250px";
+	}
+	function closeNav()	{
+		document.getElementById("navbar").style.width = "0px";
+	}
 </script>
