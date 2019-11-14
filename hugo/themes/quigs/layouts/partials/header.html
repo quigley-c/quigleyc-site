@@ -1,33 +1,30 @@
 <div class="navbar" id="navbar">
-    <a href="javascript:void(0)" class="closebtm" onclick="closeNav()">&times;</a>
     <a href="{{ print "/" | relLangURL }}">{{ .Site.Title }}</a>
     {{ with.Site.Menus.main }}
       {{ range sort . }}
         <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
       {{ end }}
     {{ end }}
-</div>
 
+</div>
+<div class="closebtn" id="closebtn">
+  <a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a>
+</div>
   <a href="javascript:void(0);" class="icon" onclick="openNav()">
     <i class="fa fa-bars"></i>
   </a>
 
 
-
 <script>
-	function drop() {
-		var x = document.getElementById("nav");
-		if (x.className === "navbar") {
-			x.className += " responsive";
-		} else {
-			x.className = "navbar";
-		}
-  	}
-	
 	function openNav() {
-		document.getElementById("navbar").style.width = "250px";
-	}
+		document.getElementById("navbar").style.width = "60%";
+		document.getElementById("closebtn").style.display = "";
+	};
 	function closeNav()	{
 		document.getElementById("navbar").style.width = "0px";
-	}
+		document.getElementById("closebtn").style.display = "none";
+	};
+	window.onload = function load() {
+		document.getElementById("closebtn").style.display = "none";
+	};
 </script>
