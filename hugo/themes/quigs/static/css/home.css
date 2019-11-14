@@ -1,3 +1,9 @@
+body, head, header {
+  background-color: #111;
+  color: #888;
+
+}
+
 .navbar {
   position: -webkit-sticky;
   position: sticky;
@@ -24,18 +30,14 @@
 .navbar .icon {
   display: none;
 }
+  
 
-@media screen and (max-width: 768px) {
-  .navbar a {display: none;}
-  .navbar a:not(:first-child) {
-    background-color: #222;
+@media screen and (min-width: 768px) {
+  .icon {
+    display: none;
   }
-  .navbar a:hover {
-    background-color: #672020;
-  }
-  .navbar a.icon {
-    float: right;
-    display: block;
+  .closebtn {
+    display: none;
   }
 }
 
@@ -54,27 +56,35 @@
   }
   .navbar a {
     padding: 8px 8px 8px 32px;
+    left: 25px;
     text-decoration: none;
     font-size: 25px;
     color: #888;
     display: block;
+    width: 100%;
     transition: 0.3s;
   }
   .navbar a:hover {
     color: #672020;
   }
-  .navbar .closebtn {
+  .closebtn {
+    display: ;
     position: absolute;
+    width: 100%;
+    height: 100%;
     top: 0;
-    right: 25px;
     font-size: 36px;
-    margin-left: 50px;
+    opacity: 0;
   }
-  .navbar .icon {
+  .closebtn .load {
+    display: none;
+  }
+  .icon {
     transition: .1s ease-in;
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
+    color: #682020;
   }
 }
 
@@ -86,7 +96,6 @@
   list-style-type: none;
   padding: 10px;
   overflow: hidden;
-  background-color: #FFFFFF;
 }
 
 .socialbar li {
@@ -94,6 +103,7 @@
 }
 
 .socialbar li a {
+  color: #888;
 }
 
 @media only screen and (min-width: 768px) {
@@ -110,6 +120,7 @@
   margin-right: auto;
   box-shadow: 4px 4px 8px 4px rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);
   max-width: 80%;
+  background-color: #222;
 }
 
 .avatar-bay img {
@@ -121,7 +132,7 @@
 .avatar-bay h1, .avatar-bay h2 {
   padding: 8px;
   text-align: center;
-  color: #222;
+  color: #888;
 }
 
 @media only screen and (min-width: 768px) {
