@@ -10,8 +10,7 @@ body, head, header {
   z-index: 1000;
   top: 0;
   overflow: hidden;
-  background-color: #652020;
-  box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);
+  background-color: #111;
 }
 
 .navbar a {
@@ -20,17 +19,18 @@ body, head, header {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  transition: background .1s ease-in;
+  transition: .1s ease-in;
 }
 
 .navbar a:hover {
+  color: #884040;
   background-color: #222;
+  box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .navbar .icon {
   display: none;
 }
-  
 
 @media screen and (min-width: 768px) {
   .icon {
@@ -38,6 +38,9 @@ body, head, header {
   }
   .closebtn {
     display: none;
+  }
+  .navbar {
+    width:100%;
   }
 }
 
@@ -65,7 +68,7 @@ body, head, header {
     transition: 0.3s;
   }
   .navbar a:hover {
-    color: #672020;
+    color: #884040;
   }
   .closebtn {
     display: ;
@@ -75,9 +78,6 @@ body, head, header {
     top: 0;
     font-size: 36px;
     opacity: 0;
-  }
-  .closebtn .load {
-    display: none;
   }
   .icon {
     transition: .1s ease-in;
