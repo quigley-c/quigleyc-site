@@ -1,5 +1,4 @@
-<section class="container centered">
-  <div class="socialbar">
+  <div class="container">
     <ul>
       {{ with.Site.Params.social }}
         {{ range sort .}}
@@ -8,10 +7,12 @@
       {{ end }}
     </ul>
   </div>
-  <div class="avatar-bay">
-    {{ with .Site.Params.avatarurl }}<img src="{{.}}" alt="avatar img">{{ end }}
+
+  <div class="container" style="text-align: center;">
     <h1>{{ .Site.Params.author }}</h1>
     <h2>{{ .Site.Params.info }}</h2>
   </div>
-</section>
-    
+ 
+  <div class="avatar-bay">
+    {{ with .Site.Params.avatarurl }}<img src="{{.}}" alt="avatar img">{{ end }}
+  </div>

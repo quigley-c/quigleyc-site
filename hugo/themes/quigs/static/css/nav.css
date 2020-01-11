@@ -1,0 +1,85 @@
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  overflow: hidden;
+  background-color: #652020;
+  box-shadow: 0px 4px 8px 4px rgba(0,0,0,0.2), 0px 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background .1s ease-in;
+}
+
+.navbar a:hover {
+  background-color: #222;
+}
+
+.navbar .icon {
+  display: none;
+}
+  
+
+@media screen and (min-width: 768px) {
+  .icon {
+    display: none;
+  }
+  .closebtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #222;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+  .navbar a {
+    padding: 8px 8px 8px 32px;
+    left: 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #888;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+  }
+  .navbar a:hover {
+    color: #672020;
+  }
+  .closebtn {
+    display: ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    font-size: 36px;
+    opacity: 0;
+  }
+  .closebtn .load {
+    display: none;
+  }
+  .icon {
+    transition: .1s ease-in;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #682020;
+  }
+}
+

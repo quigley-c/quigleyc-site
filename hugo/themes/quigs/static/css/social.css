@@ -1,0 +1,25 @@
+
+.socialbar {
+  text-align: center;
+}
+
+.socialbar ul {
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.socialbar li {
+  display: inline-block;;
+}
+
+.socialbar li a {
+  color: #888;
+}
+
+@media only screen and (min-width: 768px) {
+	[class*="socialbarr"] {
+		
+	}
+}
+
