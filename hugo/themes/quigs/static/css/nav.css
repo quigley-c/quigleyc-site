@@ -22,14 +22,38 @@
   background-color: #222;
 }
 
-.navbar .icon {
-  display: none;
+.icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  position: absolute;
+  border: 2px solid transparent;
+  background-image:
+    linear-gradient(#111,#111),
+    radial-gradient(circle at top left, #fd00da,#19d7f8);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  box-shadow:
+    12px 12px 12px 0 rgba(0,0,0,1);
+}
+
+.icon img{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 50%;
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+  position: absolute;
 }
   
 
 @media screen and (min-width: 768px) {
   .icon {
-    display: none;
   }
   .closebtn {
     display: none;
