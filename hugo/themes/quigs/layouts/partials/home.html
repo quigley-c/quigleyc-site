@@ -2,9 +2,10 @@
     <ul>
       {{ with.Site.Params.social }}
         {{ range sort .}}
-          <li><a href="{{ .url }}">{{ .name }}</a></li>
+          <a href="{{ .url }}">{{ .name }}</a>
         {{ end }}
       {{ end }}
+    <script>lichess_widgets.profile("light", "robooot");</script> 
     </ul>
   </div>
 
